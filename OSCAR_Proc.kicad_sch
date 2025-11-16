@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fff4c94d-54db-4cd3-a4a8-7481f1ffe9d0")
+	(paper "A4")
+	(title_block
+		(title "OSCAR PROC")
+		(date "2025-07-08")
+		(rev "V1.0")
+		(company "DAD Design")
+	)
+	(lib_symbols)
+	(text "Processor"
+		(exclude_from_sim no)
+		(at 192.278 36.068 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "3e4e7cb5-1ed2-4855-9c47-1174fe3e58ea")
+	)
+	(text "(Connector, USB, SWITCH, Debug)"
+		(exclude_from_sim no)
+		(at 98.806 42.672 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "543a12e0-9f2e-4ea1-af1c-ae06e4bfddce")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 194.818 101.6 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "64dcb0ed-cb71-433e-8e0e-12c00ce05c2f")
+	)
+	(text "(SDRAM, FLASH)"
+		(exclude_from_sim no)
+		(at 98.806 112.776 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "7aca7924-41dd-4fed-abde-989efa5ef9f8")
+	)
+	(text "Memories"
+		(exclude_from_sim no)
+		(at 98.806 104.394 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "92f1487d-a6de-448a-a9b4-abab4a906b1d")
+	)
+	(text "IO"
+		(exclude_from_sim no)
+		(at 98.044 33.782 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "d3d7467e-ae24-41be-ab36-9852f97cf60f")
+	)
+	(sheet
+		(at 156.21 92.71)
+		(size 78.74 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21345a0f-715d-4b0e-89cb-93e4282e01eb")
+		(property "Sheetname" "Power"
+			(at 156.21 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 156.21 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Proc"
+				(path "/fff4c94d-54db-4cd3-a4a8-7481f1ffe9d0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 25.4)
+		(size 78.74 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "756998a0-53c7-4a74-be36-d95142b90c85")
+		(property "Sheetname" "IO"
+			(at 59.69 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 59.69 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Proc"
+				(path "/fff4c94d-54db-4cd3-a4a8-7481f1ffe9d0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 92.71)
+		(size 78.74 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b30af4fd-e256-4803-aaba-d2afe0ed3602")
+		(property "Sheetname" "Memory"
+			(at 59.69 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 59.69 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Proc"
+				(path "/fff4c94d-54db-4cd3-a4a8-7481f1ffe9d0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 25.4)
+		(size 78.74 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d51fe1ea-47d0-4a34-9d1f-b045c4396af1")
+		(property "Sheetname" "STM32H743IIT6"
+			(at 156.21 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32H743IIT6.kicad_sch"
+			(at 156.21 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Proc"
+				(path "/fff4c94d-54db-4cd3-a4a8-7481f1ffe9d0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
