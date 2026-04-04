@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "OSCAR PROC")
-		(date "2025-07-08")
-		(rev "V1.0")
+		(date "2026-04-04")
+		(rev "V1.1")
 		(company "DAD Design")
 	)
 	(lib_symbols)
