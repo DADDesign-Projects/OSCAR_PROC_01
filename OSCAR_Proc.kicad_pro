@@ -542,7 +542,7 @@
       "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../OSCAR_CAD/Step/OSCAR_Proc.step",
+      "step": "../OSCAR_CAD/OSCAR_Proc.step",
       "svg": "",
       "vrml": ""
     },
